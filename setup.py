@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyCSCS",
-    version="0.0.2",
+    version="0.0.4",
     author="Asker Brejnrod, Piotr Dworzynski",
     author_email="brejnrod@sund.ku.dk",
     description="A python implementation of the CSCS distance",
