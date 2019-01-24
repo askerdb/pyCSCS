@@ -1,6 +1,8 @@
 pyCSCS
 
 ### Installation
+
+[Conda site](https://anaconda.org/askerdb/pycscs)
 ```
 conda install -c askerdb pycscs
 ```
