@@ -109,6 +109,8 @@ def single_distance(sampleA, sampleB, edges):
     cssaa = compute_sum(sampleA, sampleA, edges)
     cssbb = compute_sum(sampleB, sampleB, edges)
     new = time.time()
+    if max(cssaa, cssbb) == 0:
+        return(0)
     return(cssab/max(cssaa, cssbb))
 
 def worker(input, output, edges):
